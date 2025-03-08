@@ -1,4 +1,4 @@
-fullnumber = 12  #str
-animal = "cat" #int
-number = 8.4  #float
-print (number, fullnumber)
+Fullnumber=12 #int
+Animal = "cat" #str
+Halfnumber=8.4 #float
+print(Fullnumber, Halfnumber)
