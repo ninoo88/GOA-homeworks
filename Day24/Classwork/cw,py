@@ -1,0 +1,13 @@
+password = "SecretWord"    # პაროლი, რომელიც სწორად უნდა შეიყვანოს მომხმარებელმა
+guess = input()            # მომხმარებლის შეყვანა
+while guess != password:   # სანამ შეყვანილი სიტყვა არ ემთხვევა პაროლს
+    guess = input()        # ხელახლა სთხოვს შეყვანას
+print("Access Granted")    # სწორი შეყვანის შემდეგ ბეჭდავს "Access Granted"
+
+
+
+num = int(input("input a number: ")) 
+if num > 3:        
+    print("GOA")
+else:              
+    print("AOG")
